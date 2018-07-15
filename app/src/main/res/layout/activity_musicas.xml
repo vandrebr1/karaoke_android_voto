@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/actConexao"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/padding_top_toolbar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tb_main"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="?android:attr/colorPrimary"
+            android:elevation="0dp"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+            app:theme="@style/MyCustomToolbarStyle" />
+
+        <RelativeLayout
+            android:id="@+id/rlCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appbar"
+            android:background="?android:attr/colorPrimary"
+            android:layoutDirection="rtl">
+
+            <CheckBox
+                android:id="@+id/chkNacional"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorTextoCinza"
+                android:layout_toLeftOf="@+id/chkInternacional"
+                android:text="@string/nacional"
+                android:textColor="@color/colorTextoCinza" />
+
+            <CheckBox
+                android:id="@+id/chkInternacional"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorTextoCinza"
+                android:text="@string/internacional"
+                android:textColor="@color/colorTextoCinza" />
+        </RelativeLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!--<RelativeLayout
+        android:id="@+id/rlCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appbar"
+        android:background="?android:attr/colorPrimary"
+        android:paddingVertical="10dp">
+
+        <CheckBox
+            android:id="@+id/chkNacional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorTextoCinza"
+            android:padding="5dp"
+            android:text="@string/nacional"
+            android:textColor="@color/colorTextoCinza" />
+
+        <CheckBox
+            android:id="@+id/chkInternacional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/chkNacional"
+            android:buttonTint="@color/colorTextoCinza"
+            android:padding="5dp"
+            android:text="@string/internacional"
+            android:textColor="@color/colorTextoCinza" />
+    </RelativeLayout> -->
+
+    <TextView
+        android:id="@+id/tvMusicasNaoEncontrado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appbar"
+        android:text="@string/naoencontrado"
+        android:textColor="@color/colorTextoCinza"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/lvMusicas"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/appbar"></ListView>
+</RelativeLayout>

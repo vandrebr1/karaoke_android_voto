@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/tvMusicaItem"
+        style="@style/TextoGrid"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:text="Musica"
+        android:textColor="@color/colorAmarelo"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvCantorItem"
+        style="@style/TextoGrid"
+        android:layout_below="@+id/tvMusicaItem"
+        android:layout_marginLeft="15dp"
+        android:text="Cantor" />
+
+    <TextView
+        android:id="@+id/tvNacionalItem"
+        style="@style/TextoGrid"
+        android:layout_below="@+id/tvCantorItem"
+        android:layout_marginLeft="15dp"
+        android:text="@string/nacional" />
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actConexao"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="@dimen/fab_margin">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilEnderecoServidor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:theme="@style/TextLabelLogin">
+
+        <AutoCompleteTextView
+            android:id="@+id/edtEnderecoServidor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enderecoservidor"
+            android:imeOptions="actionDone"
+            android:inputType="textAutoComplete"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@drawable/text_cores"
+            android:textSize="20sp" />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilPortaServidor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/tilEnderecoServidor"
+        android:theme="@style/TextLabelLogin">
+
+        <AutoCompleteTextView
+            android:id="@+id/edtPortaServidor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/portaservidor"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@drawable/text_cores"
+            android:textSize="20sp" />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnConectar"
+        style="@style/BotaoFundoEscuro"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/tilPortaServidor"
+        android:text="@string/conectar" />
+
+    <Button
+        android:id="@+id/btnLeitorCodigoBarras"
+        style="@style/BotaoFundoEscuro"
+        android:maxWidth="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/btnConectar"
+        android:text="@string/lerqrcode" />
+
+
+    <TextView
+        android:id="@+id/tvlblStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/btnLeitorCodigoBarras"
+        android:text="@string/statusservidor"
+        android:textColor="@color/colorTextoCinza" />
+
+    <TextView
+        android:id="@+id/tvStatusCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/tvlblStatus"
+        android:text=""
+        android:textColor="@color/colorTextoCinza" />
+
+
+</RelativeLayout>

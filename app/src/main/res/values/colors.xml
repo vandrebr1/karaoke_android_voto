@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#402b64</color>
+    <color name="colorAmarelo">#ffff00</color>
+    <color name="colorDisable">#cccccc</color>
+    <color name="colorPrimary">#402b64</color>
+    <color name="colorPrimaryDark">#362159</color>
+    <color name="colorPrimaryLight">#554176</color>
+    <color name="colorTextRoxo">#362159</color>
+    <color name="colorTextoCinza">#cccccc</color>
+    <color name="colorTextoCinzaClaro">#6ef0f0f0</color>
+
+</resources>

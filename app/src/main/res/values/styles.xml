@@ -1,0 +1,126 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/colorPrimaryLight</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="BotaoFundoClaro">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@drawable/text_cores</item>
+        <item name="android:background">@drawable/botao_fundoclaro</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="BotaoFundoEscuro">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@drawable/text_cores</item>
+        <item name="android:background">@drawable/botao_fundoescuro</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:maxWidth">300dp</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:textColor">@color/colorTextoCinza</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="IconesGrid">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">@color/colorTextoCinza</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingBottom">10.0dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">10dp</item>
+    </style>
+
+    <style name="Texto">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorTextoCinza</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="TextoGrid">
+        <item name="android:textColor">@color/colorTextoCinza</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="TextoDestaque">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorTextoCinza</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="TextLabelLogin" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColorHint">@color/colorTextoCinzaClaro</item>
+        <item name="colorAccent">@color/colorTextoCinza</item>
+        <item name="colorControlActivated">@color/colorTextoCinza</item>
+        <item name="colorControlNormal">@color/colorTextoCinza</item>
+    </style>
+
+    <style name="RatingBar" parent="@style/Theme.AppCompat">
+        <item name="colorControlActivated">@color/colorAmarelo</item>
+        <item name="colorControlNormal">@color/colorTextoCinza</item>
+    </style>
+
+    <style name="MyCustomToolbarStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/colorTextoCinza</item>
+        <item name="android:textColorSecondary">@color/colorTextoCinza</item>
+        <item name="android:textColorHint">@color/colorTextoCinzaClaro</item>
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:itemBackground">@android:color/white</item>
+        <!-- item name="autoCompleteTextViewStyle">@style/AutoCompleteTextViewHoloLight</item -->
+    </style>
+
+    <style name="RelativeLayoutCantor">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:background">@drawable/border_layout</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+    </style>
+
+</resources>

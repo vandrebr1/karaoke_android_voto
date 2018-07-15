@@ -1,0 +1,56 @@
+<resources>
+
+    <string name="aguarde">Aguarde…</string>
+    <string name="app_name">Keep C. Karaokê</string>
+    <string name="app_name_completo">Keep Calm and Karaokê</string>
+    <string name="search_hint">Pesquisar</string>
+    <string name="iconetexto_atualizarenviar">&#xf0ed; Atualizar / Enviar</string>
+    <string name="action_settings">Conexão</string>
+    <string name="action_musicas">Músicas</string>
+    <string name="action_sobre">Sobre</string>
+    <string name="action_ultimoresultado">Último resultado</string>
+    <string name="action_pedirmusica">Pedir Música</string>
+    <string name="musicas">Músicas</string>
+    <string name="conectar">Conectar</string>
+    <string name="conexaoservidor">Conexão</string>
+    <string name="enderecoservidor">Endereço servidor:</string>
+    <string name="hifen">-</string>
+    <string name="lerqrcode">Ler QRCode</string>
+    <string name="login">Login</string>
+    <string name="nao">Não</string>
+    <string name="naocantores">Nao há cantores no momento</string>
+    <string name="permissao_negada_camera">Permissão de acesso a câmera negado pelo usuário</string>
+    <string name="portaservidor">Porta:</string>
+    <string name="semcantor">Nenhum cantor no momento</string>
+    <string name="semconexao">Nenhum servidor conectado</string>
+    <string name="semconexaoreconexão">Nenhum servidor conectado, tentando reconexão</string>
+    <string name="sim">Sim</string>
+    <string name="ok">OK</string>
+    <string name="statusservidor">Status servidor:</string>
+    <string name="usuario">Usuário:</string>
+    <string name="desenvolvidopor">Desenvolvido por Vandré Priaro - V1.01.210-A0334Z</string>
+    <string name="enviandovoto">Enviando voto...</string>
+    <string name="obrigadovoto">Obrigado por votar!</string>
+    <string name="errovoto">Ocorreu um erro ao enviar voto </string>
+    <string name="erroconexao">Ocorreu um erro ao se conectar! </string>
+    <string name="solicitandocantores">Solicitando cantores!</string>
+    <string name="desconctando">Desconectando...</string>
+    <string name="conectado">Conectado</string>
+    <string name="desconectado">Desconectado</string>
+    <string name="novocantor">Opa, novo cantor para votação!</string>
+    <string name="novocantor2">Opa, novos cantores para votação!</string>
+    <string name="vocejavotou">"Obrigado por votar!\nPermitido apenas um voto por vez!"</string>
+    <string name="naoencontrado">Nenhum registro encontrado</string>
+    <string name="nacional">Nacional &#160;</string>
+    <string name="internacional">Internacional &#160;</string>
+    <string name="pesquisar">Músicas ou cantores/bandas </string>
+    <string name="sobre_texto">Versão de demonstração\nDesenvolvidor por: Vandré W. Priaro</string>
+    <string name="sobre_contato">Contato</string>
+    <string name="mensagem_musica">Olá, da próxima baixa a música:</string>
+
+    <string name="icone_user">&#xf007;</string>
+    <string name="icone_user_o">&#xf2c0;</string>
+    <string name="icon_eye_closed">&#xf070;</string>
+    <string name="icon_music">&#xf001;</string>
+    <string name="icon_search">&#xf002;</string>
+</resources>
